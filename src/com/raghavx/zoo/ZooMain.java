@@ -7,7 +7,7 @@ public class ZooMain {
 	// Tiger 
 	
 	public static void main(String[] args) {
-		Cat a = new Tiger(1);
+		Animal a = new Cat(1);
 		a.talk();
 		a.walk();
 		a.eat();

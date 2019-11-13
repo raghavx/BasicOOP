@@ -10,4 +10,12 @@ public class Cat extends Animal{
 	public void talk() {
 		System.out.println("meow ... ");
 	}
+
+	@Override
+	public void walk() {
+		
+System.out.println(" cat walks ");
+	}
+
+	
 }

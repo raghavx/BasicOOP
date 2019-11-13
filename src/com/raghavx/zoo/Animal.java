@@ -1,6 +1,6 @@
 package com.raghavx.zoo;
 
-public class Animal {
+public abstract class Animal {
 	
 	// state 
 	private final int id;
@@ -10,16 +10,10 @@ public class Animal {
 		this.id = id;
 	}
 	
-	
-	
 	// behaviour 
-	public void walk() {
-		System.out.println("Animal walks ");
-	}
+	public abstract void walk() ;
 
-	public void talk() {
-		System.out.println("Animal talks ");
-	}
+	public abstract void talk();
 
 	public void eat() {
 		System.out.println("Animal eats ");
