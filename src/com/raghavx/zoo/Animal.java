@@ -3,7 +3,14 @@ package com.raghavx.zoo;
 public class Animal {
 	
 	// state 
-	private int id;
+	private final int id;
+	
+	public Animal(int id) {
+		// TODO Auto-generated constructor stub
+		this.id = id;
+	}
+	
+	
 	
 	// behaviour 
 	public void walk() {
