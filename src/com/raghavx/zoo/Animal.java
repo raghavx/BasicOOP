@@ -15,6 +15,7 @@ public abstract class Animal {
 
 	public abstract void talk();
 
+	// make this method abstract 
 	public void eat() {
 		System.out.println("Animal eats ");
 	}

@@ -1,5 +1,18 @@
 package com.raghavx.zoo;
+/**
+ * Core OOPS concepts are:
 
+	Abstraction
+	Encapsulation
+	Polymorphism
+	Inheritance
+	Association
+	Aggregation
+	Composition
+	
+ * @author raghav
+ *
+ */
 public class ZooMain {
 
 	// 			Animal
@@ -7,7 +20,7 @@ public class ZooMain {
 	// Tiger 
 	
 	public static void main(String[] args) {
-		Animal a = new Cat(1);
+		Animal a = new Dog(1);
 		a.talk();
 		a.walk();
 		a.eat();
