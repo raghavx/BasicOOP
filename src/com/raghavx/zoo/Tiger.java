@@ -1,5 +1,9 @@
 package com.raghavx.zoo;
-
+/**
+ * subclass of Cat superclass 
+ * @author raghav
+ *
+ */
 public class Tiger extends Cat {
 	
 	

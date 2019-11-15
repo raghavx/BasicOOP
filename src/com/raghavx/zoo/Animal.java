@@ -1,5 +1,10 @@
 package com.raghavx.zoo;
 
+/**
+ * supe class 
+ * @author raghav
+ *
+ */
 public abstract class Animal {
 	
 	// state 

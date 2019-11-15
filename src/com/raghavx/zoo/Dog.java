@@ -1,5 +1,10 @@
 package com.raghavx.zoo;
 
+/**
+ * subclass of Animal superclass 
+ * @author raghav
+ *
+ */
 public class Dog extends Animal{
 
 	public Dog(int id) {
