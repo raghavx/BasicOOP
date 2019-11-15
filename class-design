@@ -1,0 +1,7 @@
+1. Always keep data(state) private 
+2. Always initialize data 
+3. Don't use too many basic types 
+4. all fields don't need getters and setters 
+5. Single responsibility - break up classes that have too many responsibilities 
+6. name of the class and method should reflect their responsibility 
+7. prefer immutable classes (String)

@@ -3,23 +3,56 @@ package com.raghavx.hr;
 public class Employee {
 	// state
 	private final int id;
-	private int age, hoursToday = 0;
-	private String name, education;
+	private int age =0;
+	private String name;
+	private Education[] education = new Education[5];
+	
+	private Address address;
 
+	private Activity activity;
 	// behaviour
 
 	public Employee(int id) {
 		// TODO Auto-generated constructor stub
 		this.id = id;
+		this.activity = new Activity();
 	}
 
-	public void doWork() {
-		System.out.println("I am working ");
-		hoursToday = hoursToday + 1;
+	public Activity getActivity() {
+		return activity;
+	}
+	
+	
+	public int getAge() {
+		return age;
 	}
 
-	public void howMuchWork() {
-		System.out.println(hoursToday);
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Education[] getEducation() {
+		return education;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	public int getId() {
+		return id;
 	}
 
 	// identity

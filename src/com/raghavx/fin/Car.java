@@ -17,8 +17,12 @@ public class Car {
 		
 		public Car(String carNumber) {
 			this.carNumber = carNumber;
+			this.wheels = 4;
+			this.color = Color.BLACK;
 		}
-		
+		public int getWheels() {
+			return wheels;
+		}
 		// behavior 
 		public void drive() {
 			

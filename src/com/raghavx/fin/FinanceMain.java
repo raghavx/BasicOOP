@@ -8,6 +8,8 @@ public class FinanceMain {
 		Car car2 = new Car("MH03Ad1496");
 		System.out.println(car.equals(car2));
 		
+		System.out.println(car.getWheels());
+		
 	}
 
 }
