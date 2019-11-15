@@ -1,6 +1,6 @@
 package com.raghavx.zoo;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
 
 	public Cat(int id) {
 		super(id);
@@ -13,9 +13,14 @@ public class Cat extends Animal{
 
 	@Override
 	public void walk() {
-		
-System.out.println(" cat walks ");
+
+		System.out.println(" cat walks ");
 	}
 
-	
+	@Override
+	public void eat() {
+		System.out.println("Drinks milk");
+		
+	}
+
 }
