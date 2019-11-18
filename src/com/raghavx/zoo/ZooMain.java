@@ -38,16 +38,29 @@ public class ZooMain {
 	// Tiger 
 	
 	public static void main(String[] args) {
-		
-		Calculator cal = new Calculator();
-		cal.add(3, 7);
-		cal.multiply(3, 7);
-		
-		Animal a = new Tiger(1);
-		a.talk();
-		a = new Cat(2);
-		a.talk();
-		
+		Animal a = new Animal(1) {
+			@Override
+			public void walk() {
+				System.out.println("Strange ");
+			}
+			
+			@Override
+			public void talk() {
+				System.out.println("Strange ");				
+			}
+			
+			@Override
+			public EatingType eatingBehaviour() {
+				
+				return EatingType.Carnivourous;
+			}
+			
+			@Override
+			public void eat() {
+				System.out.println("Strange ");	
+				
+			}
+		};
 
 	}
 
