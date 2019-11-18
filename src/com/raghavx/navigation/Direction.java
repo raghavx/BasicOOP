@@ -12,5 +12,8 @@ package com.raghavx.navigation;
  *
  */
 public enum Direction {
+	/*
+	 * Enums are also used to create singleton class 
+	 */
 	North, South, East, West;
 }
