@@ -15,6 +15,8 @@ public abstract class Animal {
 		this.id = id;
 	}
 	
+	public abstract EatingType eatingBehaviour();
+	
 	// behaviour 
 	public abstract void walk() ;
 

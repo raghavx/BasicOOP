@@ -16,4 +16,9 @@ public class Tiger extends Cat {
 	public void talk() {
 		System.out.println("roars...");
 	}
+	
+	@Override
+	public EatingType eatingBehaviour() {
+		return EatingType.Carnivourous;
+	}
 }

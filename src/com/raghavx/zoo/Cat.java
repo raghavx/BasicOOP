@@ -9,6 +9,11 @@ public class Cat extends Animal {
 	public Cat(int id) {
 		super(id);
 	}
+	
+	@Override
+	public EatingType eatingBehaviour() {
+		return EatingType.Omnivourous;
+	}
 
 	@Override
 	public void talk() {

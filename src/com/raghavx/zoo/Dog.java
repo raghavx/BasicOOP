@@ -11,6 +11,12 @@ public class Dog extends Animal{
 		super(id);
 		// TODO Auto-generated constructor stub
 	}
+	
+	@Override
+	public EatingType eatingBehaviour() {
+		// TODO Auto-generated method stub
+		return EatingType.Omnivourous;
+	}
 
 	@Override
 	public void talk() {
