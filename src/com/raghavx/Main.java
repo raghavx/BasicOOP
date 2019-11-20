@@ -23,25 +23,25 @@ public class Main {
 		 * 
 		 */
 		// integer data type 
-		byte b ; // -128 to 127 
+		byte b = 0; // -128 to 127 
 		System.out.println(b);
-		short s; // -32,768 to 32,767
+		short s = 0; // -32,768 to 32,767
 		System.out.println(s);
-		int i; // -2^31 to 2^31 - 1
+		int i = 0; // -2^31 to 2^31 - 1
 		System.out.println(i);
-		long l;  // -2^63 to 2^63 - 1
+		long l = 0l;  // -2^63 to 2^63 - 1
 		System.out.println(l);
 		// decimal / floating point 
-		float f; // single precision 32 bit 
+		float f = 0.0f; // single precision 32 bit 
 		System.out.println(f);
-		double d;// double  precision 64 bit 
+		double d = 0.0;// double  precision 64 bit 
 		System.out.println(d);
 		
 		// 
-		boolean bt; // 1 bit 
+		boolean bt = false; // 1 bit 
 		System.out.println(bt);
 		//
-		char c, cc; // 16 bit unicode 
+		char c = 'A', cc = 'B'; // 16 bit unicode 
 		
 		System.out.println(cc);
 		System.out.println();
