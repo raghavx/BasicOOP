@@ -6,7 +6,13 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.List;
-
+/**
+ * Use parallel stream to print a file 
+ * Make the file size of 100Kb
+ * 
+ * @author raghav
+ *
+ */
 public class PathDemo {
 
 	public static void main(String[] args) throws IOException {
@@ -44,6 +50,9 @@ public class PathDemo {
 		lines.parallelStream().forEach(str -> {
 			System.out.println(str);
 		});
+		
+		Path writePath = Paths.get("/Users/raghav/sts-train/BasicOOP/xyz_write.txt");
+		Files.write(writePath, lines);
 	}
 
 }
