@@ -54,5 +54,13 @@ public class Address {
 	public void setPincode(String pincode) {
 		this.pincode = pincode;
 	}
+
+	@Override
+	public String toString() {
+		return "Address [houseNumber=" + houseNumber + ", streetName=" + streetName + ", city=" + city + ", state="
+				+ state + ", country=" + country + ", pincode=" + pincode + "]";
+	}
+	
+	
 	
 }
