@@ -23,7 +23,11 @@ public class PathDemo {
 		Path target_mv = Paths.get("/Users/raghav/sts-train/BasicOOP/xyz_mv.txt");
 		Path directory = Paths.get("/Users/raghav/sts-train/BasicOOP");
 		System.out.println(Files.isDirectory(directory));
-		System.out.println(Files.isSameFile(file, directory));
+		try {
+			System.out.println(Files.isSameFile(file, directory));
+		} catch (IOException e) {
+			// handle the exception 
+		}
 		Files.copy(file, target, StandardCopyOption.REPLACE_EXISTING);
 		Files.move(file, target_mv, StandardCopyOption.REPLACE_EXISTING);
 		Files.move(target_mv, file, StandardCopyOption.REPLACE_EXISTING);
