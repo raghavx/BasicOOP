@@ -20,4 +20,8 @@ public class LinkListUtil<T> {
 			}
 		}
 	}
+	// implement 
+	public Node<T> reverseLinkedList(Node<T> head){
+		return null;
+	}
 }

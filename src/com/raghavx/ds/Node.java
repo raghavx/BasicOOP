@@ -10,7 +10,6 @@ public class Node<T> {
 	private T data;
 	
 	public Node(T data) {
-		super();
 		this.data = data;
 	}
 	public Node<T> getNext() {
