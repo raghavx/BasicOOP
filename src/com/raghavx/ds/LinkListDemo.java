@@ -18,5 +18,7 @@ public class LinkListDemo {
 		System.out.println("--------------");
 		linkListUtil.printConsecutiveNodesInList(head);
 		
+		
+		
 	}
 }

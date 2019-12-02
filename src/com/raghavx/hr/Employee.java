@@ -54,6 +54,11 @@ public class Employee {
 	public int getId() {
 		return id;
 	}
+	
+	@Override
+	public String toString() {
+		return "Employee ID = "+id;
+	}
 
 	// identity
 	@Override
