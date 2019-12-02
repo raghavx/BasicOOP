@@ -3,17 +3,17 @@ package com.raghavx.ds;
 public class LinkListDemo {
 
 	public static void main(String[] args) {
-		Node head = new Node(1);
-		Node b = new Node(2);
+		Node<String> head = new Node<String>("A");
+		Node<String> b = new Node<String>("B");
 		head.setNext(b);
-		Node c = new Node(3);
+		Node<String> c = new Node<String>("C");
 		b.setNext(c);
-		Node d = new Node(4);
+		Node<String> d = new Node<String>("D");
 		c.setNext(d);
-		Node e = new Node(5);
+		Node<String> e = new Node<String>("E");
 		d.setNext(e);
 		
-		LinkListUtil linkListUtil = new LinkListUtil();
+		LinkListUtil<String> linkListUtil = new LinkListUtil<String>();
 		linkListUtil.printList(head);
 		System.out.println("--------------");
 		linkListUtil.printConsecutiveNodesInList(head);

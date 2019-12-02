@@ -4,24 +4,25 @@ package com.raghavx.ds;
  * @author raghav
  *
  */
-public class Node {
+public class Node<T> {
 
-	private Node next;
-	private int data;
+	private Node<T> next;
+	private T data;
 	
-	public Node(int data) {
+	public Node(T data) {
+		super();
 		this.data = data;
 	}
-	public Node getNext() {
+	public Node<T> getNext() {
 		return next;
 	}
-	public void setNext(Node next) {
+	public void setNext(Node<T> next) {
 		this.next = next;
 	}
-	public int getData() {
+	public T getData() {
 		return data;
 	}
-	public void setData(int data) {
+	public void setData(T data) {
 		this.data = data;
 	}
 	

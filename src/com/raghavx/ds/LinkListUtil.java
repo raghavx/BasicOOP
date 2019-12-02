@@ -1,17 +1,17 @@
 package com.raghavx.ds;
 
-public class LinkListUtil {
+public class LinkListUtil<T> {
 
-	public void printList(Node head) {
-		Node current = head;
+	public void printList(Node<T> head) {
+		Node<T> current = head;
 		while (current != null) {
 			System.out.println(current.getData());
 			current = current.getNext();
 		}
 	}
 	
-	public void printConsecutiveNodesInList(Node head) {
-		Node current = head;
+	public void printConsecutiveNodesInList(Node<T> head) {
+		Node<T> current = head;
 		while (current != null) {
 			System.out.println(current.getData());
 			current = current.getNext();
